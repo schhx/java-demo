@@ -1,4 +1,4 @@
-package org.schhx.javademo.proxy.pattern;
+package org.schhx.javademo.proxy.statics;
 
 import org.schhx.javademo.proxy.ISubject;
 import org.schhx.javademo.proxy.Subject;
@@ -7,7 +7,7 @@ import org.schhx.javademo.proxy.Subject;
  * @author shanchao
  * @date 2018-09-28
  */
-public class PatternClient {
+public class StaticClient {
 
     public static void main(String[] args) {
         ISubject proxy = new Proxy(new Subject());

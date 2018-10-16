@@ -1,4 +1,4 @@
-package org.schhx.javademo.proxy.pattern;
+package org.schhx.javademo.proxy.statics;
 
 import org.schhx.javademo.proxy.Subject;
 
